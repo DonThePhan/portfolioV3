@@ -4,6 +4,7 @@ import heartEmoji from '../../img/heartemoji.png';
 import glasses from '../../img/glasses.png';
 import humble from '../../img/humble.png';
 import Card from '../Card/Card';
+import Resume from './resume.pdf';
 
 const Services = () => {
   return (
@@ -19,7 +20,9 @@ const Services = () => {
           voluptates hic dignissimos ipsa magni, quasi eaque, ullam harum
           tenetur doloremque obcaecati.
         </span>
-        <button className='button s-button'>Download CV</button>
+        <a href={Resume}>
+          <button className='button s-button'>Download CV</button>
+        </a>
         <div className='blur s-blur1' style={{ background: '#abf1ff94' }}></div>
       </div>
       {/* right side */}
